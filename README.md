@@ -13,3 +13,17 @@ Temos que ter o seguinte resultado: Full Cycle Rocks!!
 IMPORTANTE: A imagem de nosso projeto Go precisa ter menos de 2MB =)
 
 Divirta-se!
+
+#### Tradução em inglês
+
+This challenge is very exciting, especially if you have never worked with the Go language!
+
+You will have to publish an image to docker hub. When we run:
+
+docker run <your-user>/fullcycle
+
+We must have the following result: Full Cycle Rocks!!
+
+IMPORTANT: The image of our Go project must be less than 2MB =)
+
+Have a good time!
