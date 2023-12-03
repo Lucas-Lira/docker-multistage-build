@@ -14,7 +14,7 @@ IMPORTANTE: A imagem de nosso projeto Go precisa ter menos de 2MB =)
 
 Divirta-se!
 
-#### Tradução em inglês
+### Tradução em inglês
 
 This challenge is very exciting, especially if you have never worked with the Go language!
 
@@ -27,3 +27,34 @@ We must have the following result: Full Cycle Rocks!!
 IMPORTANT: The image of our Go project must be less than 2MB =)
 
 Have a good time!
+
+
+### Intruções para subir o container a partir da imagem no DockerHub
+
+#### Faça o pull da imagem (Opcional)
+
+Link: https://hub.docker.com/r/lucaslira97/golang-scratch
+
+```
+    docker pull lucaslira97/golang-scratch
+```
+
+#### Suba o container com o comando abaixo
+
+```
+    docker run --name go-lang-scratch-container lucaslira97/golang-scratch:latest
+```
+
+### Intruções para subir o container a partir desse projeto
+
+Na raiz do projeto execute:
+
+```
+    docker build -t lucaslira97/golang-scratch .
+```
+
+Em seguida digite:
+
+```
+    docker run --name go-lang-scratch-container lucaslira97/golang-scratch:latest
+```
